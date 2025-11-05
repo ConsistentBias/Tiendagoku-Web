@@ -1,0 +1,49 @@
+.tira-de-imagenes {
+    /* Habilitar flexbox en el contenedor */
+    display: flex; 
+    
+    /* Centrar las imágenes horizontalmente */
+    justify-content: center; 
+    
+    /* Separar las imágenes entre sí */
+    gap: 20px; 
+
+    background-color: burlywood;
+
+    border-style: solid;
+    border-color: black;
+    border-left: 5px;
+    border-right: 5px;
+    
+    /* Permitir el salto de línea si no caben (opcional) */
+    flex-wrap: wrap;
+}
+
+.tira-de-imagenes img {
+    /* Asegurar que las imágenes no sean más grandes que su contenedor */
+    max-width: 100%; 
+    
+    /* Controlar el tamaño de las imágenes */
+    height: 300px; 
+    width: 300px;
+    
+    /* Asegurar que no se distorsionen */
+    object-fit: cover; 
+    
+    /* Añadir bordes redondeados */
+    border-radius: 10px; 
+    
+    /* Añadir una sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+    /* Transición suave para efectos hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tira-de-imagenes img:hover {
+    /* Escalar la imagen al pasar el mouse por encima */
+    transform: scale(1.05);
+    
+    /* Aumentar la sombra para un efecto de elevación */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

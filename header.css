@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    
+    
+    justify-content: space-between;
+
+    /* Centra los elementos verticalmente (en la mitad del header) */
+    align-items: center;
+
+    /* Añade algo de relleno para dar espacio */
+    padding: 10px 20px;
+
+    /* Estilos de fondo y borde */
+    background-color: burlywood;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}   
+
+header h2 {
+    color: rgb(189, 69, 14);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: black;
+}
+
+header nav {
+    /* Enlaces horizontalmente */
+    display: flex;
+
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    
+    color: #333;
+    
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+header img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 5rem;
+}
+
+header .logo {
+    display: flex;
+}

@@ -1,0 +1,85 @@
+h2 {
+    margin: 15px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+/* Estilos para el contenedor principal */
+main {
+    max-width: 500px; /* Limita el ancho del formulario */
+    margin: 50px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    background-color: #feffd9;
+    border-radius: 1rem;
+    border-style: ridge;
+    box-shadow: rgb(112, 112, 112) 10px 10px;
+    border-width: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Sombra suave */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado del formulario */
+main h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el formulario en sí */
+form {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    gap: 15px; /* Espacio entre los grupos de elementos */
+}
+
+/* Estilo para las etiquetas */
+label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada de texto, número y decimal */
+input[type="text"],
+input[type="number"],
+input[type="decimal"],
+input[type="email"], 
+input[type="password"] {
+    width: 100%; /* Ocupa el 100% del ancho del formulario */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no añada ancho extra */
+    transition: border-color 0.3s;
+}
+
+/* Efecto al enfocar un campo */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="decimal"]:focus {
+    border-color: #007bff; /* Un color de borde al enfocar */
+    outline: none; /* Elimina el contorno predeterminado del navegador */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #13742a; /* Fondo verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px; /* Espacio superior */
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón de envío */
+input[type="submit"]:hover {
+    background-color: #218838; 
+}

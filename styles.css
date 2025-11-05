@@ -1,0 +1,26 @@
+@import 'header.css';
+@import 'tira-imagenes.css';
+
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+
+h3 {
+    margin: 20px;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+.descripcion {
+    border-radius: 1rem;
+    border-style: ridge;
+    box-shadow: black 10px 10px;
+    margin: 2rem;
+    border-width: 10px;
+}
